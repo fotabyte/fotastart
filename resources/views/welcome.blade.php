@@ -128,5 +128,8 @@
                 </div>
             </div>
         </div>
+        <footer>
+            @include('globals.scripts');
+        </footer>
     </body>
 </html>
