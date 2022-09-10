@@ -10,5 +10,6 @@
 @endphp
 
 <script src="{{asset("js/global/classes/Dom.js?v=$version")}}"></script>
+<script src="{{asset("js/global/classes/Utility.js?v=$version")}}"></script>
 <script src="{{asset("js/global/classes/Ajax.js?v=$version")}}"></script>
 <script src="{{asset("js/global/setup.js?v=$version")}}"></script>

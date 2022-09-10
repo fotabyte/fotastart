@@ -53,4 +53,14 @@ class Dom{
         let list = this.all(selector);
         return list.length == 0 ? null : list[position];
     }
+
+    /**
+     * Creates an HTML element
+     * @param {string} elementType 
+     * @returns 
+     */
+    element(elementType){
+        return document.createElement(elementType);
+    }
+
 }
